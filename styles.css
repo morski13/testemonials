@@ -1,0 +1,56 @@
+body{
+    background-color: hsl(0, 0%, 81%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cards{
+    grid-template-columns: repeat(1fr, 0);
+    gap: 20px;
+    padding: 20px;
+    display: grid;
+    grid-auto-rows: minmax(200px, auto);
+}
+
+.wide-column{
+    grid-column: span 3;
+    grid-row: span 2;
+    display: grid;
+}
+
+.vertical-card{
+    grid-column: span 1;
+    grid-row: span 2;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 8px 0px black;
+    border-radius: 10px;
+}
+
+#clifford.large-card{
+    background-color:hsl(263, 55%, 52%);
+    border-radius: 10px;
+}
+
+#walters.small-card{
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+}
+
+#harmon.small-card{
+    background-color: hsl(214, 17%, 92%);
+    border-radius: 10px;
+}
+
+#abrams.large-card{
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 10px; 
+}
+
+#kira.vertical-card{
+    background-color: hsl(214, 17%, 92%);
+    border-radius: 10px;
+}
