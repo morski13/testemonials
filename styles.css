@@ -4,6 +4,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    flex-direction: column;
     height: 100vh;
 }
 
@@ -39,7 +41,7 @@ img {
   }
   
   .vertical-card {
-
+    background-color: hsl(214, 17%, 92%);
     grid-column: 3;
     grid-row: span 2;
     padding: 20px;
