@@ -22,6 +22,11 @@ img {
     grid-template-rows: 1fr 1fr;
     gap: 20px;
     place-items: center;
+    margin-top: 0; /* Uklonio margin-top da se kartice postave bliže centru */
+    max-width: 90%; /* Podesi širinu kartica ako je potrebno */
+    max-height: 90%; /* Podesi visinu kartica ako je potrebno */
+    justify-items: center; /* Centriraj kartice horizontalno */
+    align-items: center; /* Centriraj kartice vertikalno */
 }
 
 .wide-column {
