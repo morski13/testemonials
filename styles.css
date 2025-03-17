@@ -51,7 +51,7 @@ p {
     gap: 30px;
     place-items: center;
     margin-top: 0; /* Uklonio margin-top da se kartice postave bliže centru */
-    max-width: 80%; /* Podesi širinu kartica ako je potrebno */
+    max-width: 70%; /* Podesi širinu kartica ako je potrebno */
     justify-items: center; /* Centriraj kartice horizontalno */
     align-items: center; /* Centriraj kartice vertikalno */
 }
@@ -75,6 +75,7 @@ p {
   .small-card {   
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 10px;
     padding: 20px;
     border-radius: 10px;
@@ -83,13 +84,14 @@ p {
   }
   
   .vertical-card {
+    color: hsl(217, 19%, 35%);
     background-color:  hsl(0, 0%, 100%);
     grid-column-start: 4;
     grid-row: span 2;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    height: 90%;
+    height: 93%;
   }
 
 #clifford.large-card {
@@ -99,7 +101,7 @@ p {
     color: hsl(0, 0%, 100%);
     background-image: url("./images/bg-pattern-quotation.svg");
     background-repeat: no-repeat;
-    background-position: calc(100% - 30px) top;
+    background-position: calc(100% - 50px) top;
 }
 
 #walters.small-card {
@@ -107,6 +109,7 @@ p {
     border-radius: 10px;
     grid-column-start: 3;
     grid-row: 1;
+    color:  hsl(0, 0%, 100%);
     
 }
 
@@ -115,7 +118,7 @@ p {
     border-radius: 10px;
     grid-column-start: 1;
     grid-row: 2;
-    color: hsl(219, 29%, 14%);
+    color: hsl(217, 19%, 35%);
   
 }
 
