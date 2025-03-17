@@ -99,7 +99,7 @@ p {
     color: hsl(0, 0%, 100%);
     background-image: url("./images/bg-pattern-quotation.svg");
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: calc(100% - 30px) top;
 }
 
 #walters.small-card {
