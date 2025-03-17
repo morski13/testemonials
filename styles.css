@@ -32,8 +32,8 @@ p {
 .cards {
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 2fr);
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 20px;
     place-items: center;
     margin-top: 0; /* Uklonio margin-top da se kartice postave bliže centru */
