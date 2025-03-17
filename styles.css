@@ -84,6 +84,9 @@ p {
   }
   
   .vertical-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: hsl(217, 19%, 35%);
     background-color:  hsl(0, 0%, 100%);
     grid-column-start: 4;
