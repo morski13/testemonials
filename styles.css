@@ -131,7 +131,7 @@ p {
     border-radius: 10px; 
     grid-column: span 2;
     grid-row-start: 2;
-    color: hsl(224, 10%, 45%);
+    color: hsl(0, 0%, 81%);
 }
 
 @media (max-width: 376px) {
