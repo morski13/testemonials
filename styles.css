@@ -11,15 +11,29 @@ body{
 }
 
 img {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
 }
+
+p {
+  font-size: smaller;
+}
+
+.title{
+  font-size: large;
+  font-weight: 600;
+}
+
+#profile-online{
+  border: 5px solid hsl(264, 82%, 80%) ;
+}
+
 .cards {
     margin-top: 4rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 2fr);
     gap: 20px;
     place-items: center;
     margin-top: 0; /* Uklonio margin-top da se kartice postave bliže centru */
@@ -55,6 +69,7 @@ img {
     background-color: hsl(263, 55%, 52%);
     grid-column: span 2;
     grid-row: 1;
+    color: hsl(0, 0%, 100%);
 }
 
 #walters.small-card {
@@ -70,6 +85,7 @@ img {
     border-radius: 10px;
     grid-column-start: 1;
     grid-row: 2;
+    color: hsl(0, 0%, 100%);
   
 }
 
@@ -78,4 +94,5 @@ img {
     border-radius: 10px; 
     grid-column: span 2;
     grid-row-start: 2;
+    color: hsl(224, 10%, 45%);
 }
