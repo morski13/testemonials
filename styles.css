@@ -68,7 +68,7 @@ p {
   gap: 10px;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
   
 }
   
@@ -79,7 +79,7 @@ p {
     gap: 10px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
     
   }
   
@@ -94,7 +94,7 @@ p {
     grid-row: span 2;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
     height: 93%;
   }
 
@@ -132,4 +132,42 @@ p {
     grid-column: span 2;
     grid-row-start: 2;
     color: hsl(224, 10%, 45%);
+}
+
+@media (max-width: 376px) {
+  body {
+      padding: 10px;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .cards {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      gap: 20px;
+  }
+
+  .large-card, .small-card, .vertical-card {
+      width: 100%;
+      grid-column: auto;
+      grid-row: auto;
+      height: auto;
+      padding: 15px;
+  }
+
+  #clifford.large-card {
+      background-position: calc(100% - 20px) top; /* Prilagođeno za mobilne uređaje */
+  }
+
+  img {
+      width: 40px;
+      height: 40px;
+  }
+
+  p, .name, .verified {
+      font-size: medium;
+  }
 }
