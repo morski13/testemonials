@@ -25,9 +25,17 @@ p {
   font-weight: 600;
 }
 
-.name{
+.description{
   display: flex;
   flex-direction: column;
+}
+
+.name{
+  font-size: small;
+}
+
+.verified{
+  font-size: smaller;
 }
 
 #profile-online{
@@ -42,8 +50,7 @@ p {
     gap: 20px;
     place-items: center;
     margin-top: 0; /* Uklonio margin-top da se kartice postave bliže centru */
-    max-width: 100%; /* Podesi širinu kartica ako je potrebno */
-    max-height: 100%; /* Podesi visinu kartica ako je potrebno */
+    max-width: 80%; /* Podesi širinu kartica ako je potrebno */
     justify-items: center; /* Centriraj kartice horizontalno */
     align-items: center; /* Centriraj kartice vertikalno */
 }
