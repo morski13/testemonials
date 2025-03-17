@@ -87,6 +87,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 10px;
     color: hsl(217, 19%, 35%);
     background-color:  hsl(0, 0%, 100%);
     grid-column-start: 4;
