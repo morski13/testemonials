@@ -37,10 +37,16 @@ p {
     gap: 20px;
     place-items: center;
     margin-top: 0; /* Uklonio margin-top da se kartice postave bliže centru */
-    max-width: 90%; /* Podesi širinu kartica ako je potrebno */
-    max-height: 90%; /* Podesi visinu kartica ako je potrebno */
+    max-width: 100%; /* Podesi širinu kartica ako je potrebno */
+    max-height: 100%; /* Podesi visinu kartica ako je potrebno */
     justify-items: center; /* Centriraj kartice horizontalno */
     align-items: center; /* Centriraj kartice vertikalno */
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .large-card {
@@ -56,7 +62,7 @@ p {
   }
   
   .vertical-card {
-    background-color: hsl(214, 17%, 92%);
+    background-color:  hsl(0, 0%, 100%);
     grid-column-start: 4;
     grid-row: span 2;
     padding: 20px;
@@ -81,11 +87,11 @@ p {
 }
 
 #harmon.small-card {
-    background-color: hsl(214, 17%, 92%);
+    background-color:  hsl(0, 0%, 100%);
     border-radius: 10px;
     grid-column-start: 1;
     grid-row: 2;
-    color: hsl(0, 0%, 100%);
+    color: hsl(219, 29%, 14%);
   
 }
 
