@@ -51,7 +51,7 @@ p {
     gap: 30px;
     place-items: center;
     margin-top: 0; /* Uklonio margin-top da se kartice postave bliže centru */
-    max-width: 70%; /* Podesi širinu kartica ako je potrebno */
+    max-width: 65%; /* Podesi širinu kartica ako je potrebno */
     justify-items: center; /* Centriraj kartice horizontalno */
     align-items: center; /* Centriraj kartice vertikalno */
 }
@@ -69,7 +69,7 @@ p {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  height: 85%;
+  
 }
   
   .small-card {   
@@ -80,7 +80,7 @@ p {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    height: 85%;
+    
   }
   
   .vertical-card {
