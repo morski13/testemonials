@@ -18,8 +18,8 @@ img {
 .cards {
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 20px;
     place-items: center;
     margin-top: 0; /* Uklonio margin-top da se kartice postave bliže centru */
@@ -29,32 +29,22 @@ img {
     align-items: center; /* Centriraj kartice vertikalno */
 }
 
-.wide-column {
-    display: grid;
-    grid-column: 1;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 20px;
-}
-
 .large-card {
-    grid-column: span 2;
-    grid-row: span 1;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   }
   
   .small-card {   
-    grid-column: span 1;
-    grid-row: span 1;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   }
   
   .vertical-card {
     background-color: hsl(214, 17%, 92%);
-    grid-column: 2;
-    grid-row: 1;
+    grid-column: 4;
+    grid-row: 1 / 2;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
@@ -63,32 +53,29 @@ img {
 
 #clifford.large-card {
     background-color: hsl(263, 55%, 52%);
-    border-radius: 10px;
     grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    grid-row: 1;
 }
 
 #walters.small-card {
     background-color: hsl(217, 19%, 35%);
     border-radius: 10px;
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    grid-column: 3;
+    grid-row: 1;
+    
 }
 
 #harmon.small-card {
     background-color: hsl(214, 17%, 92%);
     border-radius: 10px;
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    grid-column: 1;
+    grid-row: 2;
+    
 }
 
 #abrams.large-card {
     background-color: hsl(219, 29%, 14%);
     border-radius: 10px; 
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    grid-row: 2;
 }
